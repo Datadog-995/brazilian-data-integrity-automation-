@@ -3,6 +3,9 @@
 ## 📌 Project Overview
 This project establishes an automated data integrity and data scrubbing pipeline for a complex, multi-table Brazilian e-commerce dataset. Instead of relying on manual data cleaning, this repository demonstrates a scalable, programmatic workflow designed to ingest raw data, enforce strict integrity constraints, track transformations, and output analysis-ready datasets.
 
+### Data Pipeline Scale: Records Processed by Table
+![Records Processed Bar Chart](https://quickchart.io/chart?c={type:'horizontalBar',data:{labels:['Orders','Customers','Reviews','Products'],datasets:[{label:'Rows%20Cleaned',data:[99441,99441,99224,32951],backgroundColor:'%233498DB'}]}})
+
 ## 🛠️ The Toolset & Workflow
 The pipeline utilizes a coordinated, multi-tool architecture to maximize efficiency and handling capacity:
 *   **OpenRefine:** Used for initial schema evaluation, text standardizations, and complex text clustering/faceting.
