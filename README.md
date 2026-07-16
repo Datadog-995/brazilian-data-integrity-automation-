@@ -1,4 +1,4 @@
-# br# Brazilian E-Commerce Data Integrity & Automation Pipeline
+ Brazilian E-Commerce Data Integrity & Automation Pipeline
 
 ## 📌 Project Overview
 This project establishes an automated data integrity and data scrubbing pipeline for a complex, multi-table Brazilian e-commerce dataset. Instead of relying on manual data cleaning, this repository demonstrates a scalable, programmatic workflow designed to ingest raw data, enforce strict integrity constraints, track transformations, and output analysis-ready datasets.
@@ -25,4 +25,4 @@ The raw Brazilian dataset presented several distinct data integrity hurdles that
 
 ## 📈 Portfolio Business Impact
 By shifting from manual data cleaning to an **automated data integrity solution**, this workflow reduces data preparation time by an estimated 70-80%, guaranteeing that downstream analytics or machine learning models operate on 100% reliable data.
-azilian-data-integrity-automation-
+
