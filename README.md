@@ -5,10 +5,12 @@ This project establishes an automated data integrity and data scrubbing pipeline
 
 ### Data Pipeline Scale: Records Processed by Table
 <img width="1600" height="889" alt="Brazilian_ECommerce_Scale" src="https://github.com/user-attachments/assets/b1f0b644-d056-4026-bb0e-4d169bf72808" />
-
+*Figure 1: Visual mapping of data ingestion scale across all nine Olist relational database tables.*
 ## 🛠️ The Toolset & Workflow
+*Figure 2: Distribution of transaction modalities, highlighting credit card dominance.*
 The pipeline utilizes a coordinated, multi-tool architecture to maximize efficiency and handling capacity:
 *   **OpenRefine:** Used for initial schema evaluation, text standardizations, and complex text clustering/faceting.
+*Figure 3: Breakdown of leading commercial product categories, validating programmatic text standardization.*
 *   **Google Colab & Python (Pandas):** The core engine executing programmatic, reproducible scripts to handle automated missing-value imputation, data type enforcement, and duplicate detection.
 *   **Google Sheets:** Leveraged for final reporting, presentation-layer formatting, and AI-assisted change logs.
 
