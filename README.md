@@ -8,9 +8,15 @@ This project establishes an automated data integrity and data scrubbing pipeline
 *Figure 1: Visual mapping of data ingestion scale across all nine Olist relational database tables.*
 ## 🛠️ The Toolset & Workflow
 *Figure 2: Distribution of transaction modalities, highlighting credit card dominance.*
+
+<img width="1000" height="700" alt="payment_methods_pie_chart" src="https://github.com/user-attachments/assets/064885f5-34ad-4e80-9823-13c2d529feb2" />
+
 The pipeline utilizes a coordinated, multi-tool architecture to maximize efficiency and handling capacity:
 *   **OpenRefine:** Used for initial schema evaluation, text standardizations, and complex text clustering/faceting.
 *Figure 3: Breakdown of leading commercial product categories, validating programmatic text standardization.*
+
+<img width="1000" height="700" alt="top_products_pie_chart" src="https://github.com/user-attachments/assets/a2391098-067e-4b44-9a0a-1762d74923a9" />
+
 *   **Google Colab & Python (Pandas):** The core engine executing programmatic, reproducible scripts to handle automated missing-value imputation, data type enforcement, and duplicate detection.
 *   **Google Sheets:** Leveraged for final reporting, presentation-layer formatting, and AI-assisted change logs.
 
